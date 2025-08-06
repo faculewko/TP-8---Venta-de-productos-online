@@ -2,10 +2,10 @@ function Contacto() {
   return (
     <div>
       <h1>Contacto</h1>
-      <p>Ponte en contacto con nosotros:</p>
+      <p>Ponete en contacto con nosotros:</p>
       <form>
         <div>
-          <label htmlFor="nombre">Nombre:</label>
+          <label htmlFor="nombre">Nombre completo:</label>
           <input type="text" id="nombre" name="nombre" required />
         </div>
         <div>

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Navbar from './Navbar'
+import NavbarAPI from './NavbarAPI'
 
 function Header() {
   return (
@@ -7,9 +7,9 @@ function Header() {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo">
-            Tienda Online
+            MILEWKO
           </Link>
-          <Navbar />
+          <NavbarAPI />
         </div>
       </div>
     </header>

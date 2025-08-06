@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       <div className="container">
-        <p>&copy; 2024 Tienda Online. Todos los derechos reservados.</p>
+        <p>&copy; 2025 MILEWKO Company. La mejor calidad al mejor precio.</p>
       </div>
     </footer>
   )
