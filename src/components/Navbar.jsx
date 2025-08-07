@@ -7,14 +7,10 @@ function Navbar() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    // Simulación de llamada a API - reemplazar con endpoint real
+
     const fetchCategorias = async () => {
       try {
-        // Aquí iría la llamada real a tu endpoint de categorías
-        // const response = await fetch('/api/categorias')
-        // const data = await response.json()
-        
-        // Datos de ejemplo - reemplazar con datos reales
+
         const data = [
           { id: 1, nombre: 'Electrónica' },
           { id: 2, nombre: 'Ropa' },

@@ -23,8 +23,7 @@ function ProductosCategoriaAPI() {
     fetchProductosPorCategoria()
   }, [idCategoria])
 
-  if (loading) return <div className="loading">Cargando productos...</div>
-  if (error) return <div className="error">{error}</div>
+  
 
   return (
     <div>
